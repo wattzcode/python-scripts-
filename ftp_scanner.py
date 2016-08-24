@@ -1,6 +1,6 @@
 #! /usr/bin/evn python
 '''this script is desiged to use the tcp full conection to determine
-the status of port 21 on systems, by aending certain mount of data it
+the status of port 21 on systems, by sending a certain mount of data, it
 can receive data in form of a banner containing details about the scanned
 ftp server. you only have to supply the script with an ip addr and it
 will attempt to connect using the defualt ftp port 21'''
