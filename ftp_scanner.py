@@ -32,7 +32,7 @@ def connect(host):
 #the main subroutine contains optionparser methods used to read command line arg
 
 def main():
-   pars_obj = optparse.OptionParser('usage:'+'Ftp vul scanner \n   -H < host ip addr >')
+   pars_obj = optparse.OptionParser('usage:'+'Ftp vul scanner \n ftp_sacnner.py -H < host ip addr >')
    pars_obj.add_option('-H', dest='host', type='string')
    #parser object creates a command line arg '-H' and set to handle ip addr
    (options, args) = pars_obj.parse_args()
